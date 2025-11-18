@@ -1,16 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta property="og:title" content="Заголовок страницы Темы 2">
     <meta property="og:description" content="Описание страницы в соцсетях. Разбираемся с тегами в теме 2">
     <meta property="og:image" content="https://m.gjcdn.net/content/750/23852121-qk5ipnag-v4.webp">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scaleble=1.0">
+    <title>🥱🥱🥱</title>
+    <!--Пример 1-->
+    <link rel="stylesheet" href="style/style.css">
+    <!--Пример 2-->
+    <style>
+        * {
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
+    <!--Пример 3-->
+    <header style="padding:24px;">
+        <div class="marquee" >
+            <div class="marquee__inner" aria-hidden="true">
+                <span class="marquee__content">Это</span>
+                <span class="marquee__content">Полоса</span>
+                <span class="marquee__content">Прокрутки</span>
+                <span class="marquee__content">На</span>
+                <span class="marquee__content">Примере</span>
+            </div>
+        </div>
+        <nav>
+
+        </nav>
+
+    </header>
+    <main>
+        <button popovertarget="my-popover" popovertargetaction="toggle">
+            Всплываем!
+        </button>
+
+        <div id="my-popover" popover>
+            <p>🛳️</p>
+        </div>
+
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            <source src="audio.ogg" type="audio/ogg">
+            <p>
+                Ваш браузер не поддерживает встроенное аудио. Попробуйте
+                <a href="audio.mp3" download>скачать</a> файл.
+            </p>
+        </audio>
+
+        <video controls src="assets/video/cat.mp4" poster="assets/img/cat.jpg" width="580">
+            Простите, но ваш браузер не поддерживает встроенные видео.
+            Попробуйте скачать видео <a href="assets/video/cat.mp4">по этой ссылке</a>
+            и открыть его на своём устройстве.
+        </video>
+
+        <iframe srcdoc="index.html">
+        </iframe>
+
+        <video controls width="250" height="200" muted>
+            <source src="birthday.webm" type="video/webm">
+            <source src="birthday.mp4" type="video/mp4">
+        </video>
+        <br>
+        <details>
+            <summary>Это раскрывающийся список?</summary>
+            <p>Да, это раскрывающийся список</p>
+        </details>
+
+
+        <button popovertarget="my-popover">
+            Показать поповер
+        </button>
+
+        <div id="my-popover" popover>
+            <p>Я — простой поповер</p>
+        </div>
+
+
+
+
+    </main>
 
 </body>
 
